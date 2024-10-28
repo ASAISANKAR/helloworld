@@ -15,7 +15,7 @@ public class HelloworldApplication {
 
 	@GetMapping("/")
     public String hello() {
-      return String.format("Hello world from Java Spring Boot!");
+      return String.format("Hello this is SS......!!!!!!!");
     }
 
 }
