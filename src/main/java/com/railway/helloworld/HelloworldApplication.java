@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
+//@RestController
 public class HelloworldApplication {
 
 	public static void main(String[] args) {
@@ -15,9 +15,9 @@ public class HelloworldApplication {
 		System.out.println("The Spring Boot Project has Started");
 	}
 
-	@GetMapping("/")
-    public String hello() {
-      return String.format("Hello this is SS......!!!!!!!");
-    }
+//	@GetMapping("/")
+//    public String hello() {
+//      return String.format("Hello this is SS......!!!!!!!");
+//    }
 
 }
