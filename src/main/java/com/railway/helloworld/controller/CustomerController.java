@@ -20,7 +20,7 @@ public class CustomerController
 	@Autowired
 	private CustomerService customerService;
 	
-	@GetMapping("/")
+	@GetMapping("home")
 	public ModelAndView home()
 	{
 		ModelAndView mv=new ModelAndView();
