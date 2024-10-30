@@ -18,7 +18,7 @@ public class HelloworldApplication {
 	@GetMapping("/")
 	public String home()
 	{
-		return "<h1>Hello this is the starting project of Spring Boot</h1>";
+		return "<div align=\"center\"><h1>Hello this is the starting project of Spring Boot</h1></div>";
 	}
 
 }
